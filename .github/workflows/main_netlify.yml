@@ -21,4 +21,4 @@ jobs:
         env:
           TOKEN_QUE_PRECISA_SER_GERADO: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           ID_DO_PROJETO_DE_VOCES: ${{ secrets.NETLIFY_SITE_ID }}
-        run: netlify deploy --site=5c14d4b6-7760-49ee-b717-68e5ec44f384 --auth=nfp_8AQejkqoxf9k2b8orfSUgQCwwm2euHV5fe5c --dir="." --prod
+        run: netlify deploy --site=$ ID_DO_PROJETO_DE_VOCESI --auth=$TOKEN_QUE_PRECISA_SER_GERADO --dir="." --prod
